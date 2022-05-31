@@ -1,0 +1,104 @@
+.table,
+th,
+td {
+  border-collapse: collapse;
+  width: 10%;
+  padding: 8px 20px;
+  text-align: center;
+  border-bottom: 1px solid #999;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4caf50;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.Tambah {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.edit {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+}
+.hapus {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.edit:hover {
+  background-color: white;
+  color: #4caf50;
+  border: 1px solid;
+}
+
+.hapus:hover {
+  background-color: white;
+  color: #f44336;
+  border: 1px solid;
+}
+
+.form input[type='text'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form textarea[type='text'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button input[type='button'],
+input[type='submit'] {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
